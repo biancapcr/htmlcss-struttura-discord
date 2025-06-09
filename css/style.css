@@ -16,7 +16,7 @@ body{
     padding: 5px 0;
     background-color: #ADD8E7;
 }
-.nav-container{
+    .container-nav{
     display: flex;
     width: 50%;
     justify-content: space-between;
@@ -45,24 +45,6 @@ body{
     text-align: right;
 }
 
-.container{
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 0;
-
-}
-
-.box {
-    flex: 1;
-    min-height: 200px;
-}
 ======== Palette ==========
 .bg-#DAA51E yellow
 .bg-#00018B dark blue
