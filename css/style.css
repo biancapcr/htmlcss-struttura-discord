@@ -17,6 +17,16 @@ body{
     width: 90%;
 }
 
-.link a{
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+
+.nav a{
     text-decoration: none;
+    margin: 0 10px;
+    color: black;
 }
