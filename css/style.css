@@ -7,7 +7,7 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 2;
+    line-height: 1;
 
 }
 
@@ -17,16 +17,30 @@ body{
     width: 90%;
 }
 
-.header-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0;
+.header-nav{
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header.bg-light-blue{
+    background-color: #ADD8E7;
+    color: black;
 }
 
 
 .nav a{
     text-decoration: none;
-    margin: 0 10px;
     color: black;
+    margin: 0 10px
+
 }
+
+
+/* ========== Palette ==========
+.bg-#DAA51E yellow
+.bg-#00018B dark blue
+.bg-#EF82ED dark pink
+*/
