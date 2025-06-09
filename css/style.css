@@ -17,27 +17,43 @@ body{
     width: 90%;
 }
 
-.header-nav{
-    margin: 0 10px;
+.header{
     display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #ADD8E7;
+}
+.nav-container{
+    display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px;
+    border: 1px dashed black;
+    background-color: #DAA51E;
+}
+.nav-item{
+    flex: 1;
+    align-items: center;
 }
 
-.header.bg-light-blue{
-    background-color: #ADD8E7;
-    color: black;
-}
-
-.nav a{
+.nav-links a{
     text-decoration: none;
     color: black;
-    margin: 0 10px
-
+    margin: 0 10px;
+    text-align: center;
 }
 
+.logo{
+    text-align: left;
+}
 
+.login{
+    text-align: right;
+}
+.section{
+    padding: 40px 0;
+}
 /* ========== Palette ==========
 .bg-#DAA51E yellow
 .bg-#00018B dark blue
