@@ -112,7 +112,12 @@ body{
   margin: 0 auto;
 }
 
-/* ========== Footer ========== */
+/* ========== Footer top ========== */
+
+.section.bg-dark-gray {
+  background-color: #23272A;
+  padding: 60px 0;
+}
 
 
 ======== Palette ==========
@@ -123,3 +128,8 @@ body{
 .bg-#D3D3D3 light gray
 .bg-#1E90FF blue
 .bg-#FFC0CA pink
+.bg-#23272A dark gray
+.bg-#2033AA turquoise
+.bg-#7FFFD4 aquamarine
+bg-#FDB7C1 light pink
+bg-#F08180 salmon
