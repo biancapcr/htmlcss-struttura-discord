@@ -47,7 +47,7 @@ body{
 .nav-item.login{
     border-left: 3px dotted black;
     text-align: right;
-
+    
 }
 
 .nav-item {
@@ -55,10 +55,14 @@ body{
   padding: 8px 16px;
   text-align: center;
 }
-/* ========== Sizes ========== */
+/* ========== Sections ========== */
 
-
-
+.section.bg-dark-blue {
+  background-color: #00018B;
+  padding: 90px 0;
+  width: 100%;
+  text-align: center;
+}
 
 /* ========== Footer ========== */
 
