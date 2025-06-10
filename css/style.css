@@ -151,27 +151,23 @@ body{
   margin: 0 auto; 
   display: flex;
   justify-content: space-between;
-  align-items: center;                     
+  align-items: center; 
+  margin-top: 20px;
+  height: 50px;                    
 }
 .footer-content {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 1200px;
   margin: 0;
 }
 .logo-small, .bottom-text {
   background-color: #FDB7C1;
   border: 3px dotted black;
-  padding: 10px 20px;
   margin: 0;
+  padding: 5px 5px;
 }
-
-
-
-
-
-======== Palette ==========
+====== Color Classes ======
 .bg-#DAA51E yellow
 .bg-#00018B dark blue
 .bg-#EF82ED dark pink
