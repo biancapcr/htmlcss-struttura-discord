@@ -64,6 +64,14 @@ body{
   text-align: center;
 }
 
+.box.big.bg-dark-pink {
+  background-color: #ee82ee;
+  width: 40%;
+  height: 250px;
+  margin: 0 auto;
+  border: 2px dotted black;
+}
+
 /* ========== Footer ========== */
 
 
