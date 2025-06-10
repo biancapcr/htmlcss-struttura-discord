@@ -121,16 +121,23 @@ body{
 .section.bg-dark-gray .container-sm{
   display: flex;
   justify-content: center;
-  gap: 20px;
+  flex-wrap: nowrap;
 }
 .box.wide.bg-salmon {
   width: 20%;
-  height: 200px;
+  height: 500px;
   background-color: #F08180;
   border: 2px dotted black;
+
+}
+.box.long.bg-turquoise {
+  width: 15%;
+  height: 500px;
+  background-color: #40e0d0;
+  border: 2px dotted white;
 }
 
-
+/* ========== Footer bottom ========== */
 
 ======== Palette ==========
 .bg-#DAA51E yellow
