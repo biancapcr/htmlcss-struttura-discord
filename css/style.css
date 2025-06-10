@@ -14,29 +14,47 @@ body{
     display: flex;
     background-color: #ADD8E7;
     justify-content: center;
-    height: 30px;
+    padding: 20px 0;
 }
 
 .container-nav{
     display: flex;
     background-color: #DAA51E;
     width: 80%;
-    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
     align-items: center;
     border: 1px dashed black;
 }
 
-.nav-links a{
+.nav-item.links a{
     text-decoration: none;
     color: black;
     margin: 0 10px;
+    border: none;
+  
 }
 
+.nav-item.links{
+    border: none;
+}
 
-/* ========== layout classes utilities ========== */
+.nav-item.logo{
+    border-right: 3px dotted black;
+    text-align: left;
+}
 
+.nav-item.login{
+    border-left: 3px dotted black;
+    text-align: right;
 
+}
 
+.nav-item {
+  flex: 1;
+  padding: 8px 16px;
+  text-align: center;
+}
 /* ========== Sizes ========== */
 
 
