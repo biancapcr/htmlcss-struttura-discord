@@ -102,6 +102,16 @@ body{
   background-color: #FFC0CA;
 }
 
+/* --- SEZIONE 5 --- */
+
+.box.big.bg-green {
+  width: 40%;
+  height: 250px;
+  background-color: #228b22;
+  border: 2px dotted black;
+  margin: 0 auto;
+}
+
 /* ========== Footer ========== */
 
 
