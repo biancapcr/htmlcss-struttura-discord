@@ -10,7 +10,10 @@ body{
 }
 
 .section{
-    padding: 20px;
+    align-items: center;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
 }
 
 .header{
@@ -58,7 +61,13 @@ body{
     height: 150px;
     border: 1px dotted black;
 }
-
+.half{
+    flex: 1;
+}
+.wide{
+    width: 60%;
+    margin: 0;
+}
 ======== Palette ==========
 .bg-#DAA51E yellow
 .bg-#00018B dark blue
