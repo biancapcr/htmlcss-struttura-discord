@@ -118,6 +118,18 @@ body{
   background-color: #23272A;
   padding: 60px 0;
 }
+.section.bg-dark-gray .container-sm{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.box.wide.bg-salmon {
+  width: 20%;
+  height: 200px;
+  background-color: #F08180;
+  border: 2px dotted black;
+}
+
 
 
 ======== Palette ==========
