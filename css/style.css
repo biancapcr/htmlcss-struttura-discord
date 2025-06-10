@@ -8,17 +8,40 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1;
 }
-/* ========== layout classes utilities ========== */
-
-}
 
 /* ========== Header ========== */
-
+.header{
+    display: flex;
+    background-color: #ADD8E7;
+    justify-content: center;
+    height: 30px;
 }
+
+.container-nav{
+    display: flex;
+    background-color: #DAA51E;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px dashed black;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+
+/* ========== layout classes utilities ========== */
+
+
+
 /* ========== Sizes ========== */
 
 
-}
+
+
 /* ========== Footer ========== */
 
 
@@ -26,4 +49,4 @@ body{
 .bg-#DAA51E yellow
 .bg-#00018B dark blue
 .bg-#EF82ED dark pink
-*/
+.bg-#ADD8E7 light blue
