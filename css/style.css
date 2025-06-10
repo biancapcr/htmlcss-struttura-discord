@@ -80,7 +80,7 @@ body{
 }
 
 .section.bg-light-gray {
-  background-color: #d3d3d3;
+  background-color: #D3D3D3;
   padding: 60px 0;
 }
 
@@ -110,6 +110,6 @@ body{
 .bg-#00018B dark blue
 .bg-#EF82ED dark pink
 .bg-#ADD8E7 light blue
-.bg-#d3d3d3 light gray
+.bg-#D3D3D3 light gray
 .bg-#1E90FF blue
 .bg-#FFC0CA pink
