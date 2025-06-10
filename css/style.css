@@ -57,6 +57,7 @@ body{
 }
 /* ========== Sections ========== */
 
+/* --- SEZIONE 1 --- */
 .section.bg-dark-blue {
   background-color: #00018B;
   padding: 90px 0;
@@ -71,6 +72,35 @@ body{
   margin: 0 auto;
   border: 2px dotted black;
 }
+/* --- SEZIONE 2,3,4 --- */
+
+.section.bg-white {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+.section.bg-light-gray {
+  background-color: #d3d3d3;
+  padding: 60px 0;
+}
+
+.section .container-sm {
+  display: flex;
+  justify-content: center;
+}
+.box.half {
+  width: 400px;
+  height: 250px;
+  border: 2px dotted black;
+}
+
+.bg-blue {
+  background-color: #1E90FF;
+}
+
+.bg-pink {
+  background-color: #FFC0CA;
+}
 
 /* ========== Footer ========== */
 
@@ -80,3 +110,6 @@ body{
 .bg-#00018B dark blue
 .bg-#EF82ED dark pink
 .bg-#ADD8E7 light blue
+.bg-#d3d3d3 light gray
+.bg-#1E90FF blue
+.bg-#FFC0CA pink
