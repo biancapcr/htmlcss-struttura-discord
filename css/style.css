@@ -139,16 +139,33 @@ body{
 
 /* ========== Footer bottom ========== */
 
+.footer-sm{
+  background-color: #23272A;
+  border: 1px solid white;
 
+}
 
-
-
-
-
-
-
-
-
+.footer-base{
+  background-color: #7FFFD4;
+  width: 80%;
+  margin: 0 auto; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;                     
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0;
+}
+.logo-small, .bottom-text {
+  background-color: #FDB7C1;
+  border: 3px dotted black;
+  padding: 10px 20px;
+  margin: 0;
+}
 
 
 
